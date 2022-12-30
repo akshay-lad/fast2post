@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+		<link
+			href="/vendor/font-awesome-5/css/fontawesome-all.min.css"
+			rel="stylesheet"
+			media="all"
+		/>
+		<link
+			href="/vendor/mdi-font/css/material-design-iconic-font.min.css"
+			rel="stylesheet"
+			media="all"
+		/>
+		<!-- Bootstrap CSS-->
+		<link
+			href="/vendor/bootstrap-4.1/bootstrap.min.css"
+			rel="stylesheet"
+			media="all"
+		/>
+
+		<!-- Vendor CSS-->
+		<link
+			href="/vendor/animsition/animsition.min.css"
+			rel="stylesheet"
+			media="all"
+		/>
+		<link href="/vendor/wow/animate.css" rel="stylesheet" media="all" />
+		<link
+			href="vendor/perfect-scrollbar/perfect-scrollbar.css"
+			rel="stylesheet"
+			media="all"
+		/>
+
+		<title>fast2post</title>
+	</head>
+	<body class="light">
+		<noscript>
+			<strong
+				>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't
+				work properly without JavaScript enabled. Please enable it to
+				continue.</strong
+			>
+		</noscript>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+		<!-- Jquery JS-->
+		<script src="/vendor/jquery-3.2.1.min.js"></script>
+		<!-- Bootstrap JS-->
+		<script src="/vendor/bootstrap-4.1/popper.min.js"></script>
+		<script src="/vendor/bootstrap-4.1/bootstrap.min.js"></script>
+		<!-- Vendor JS       -->
+		<script src="/vendor/wow/wow.min.js"></script>
+		<script src="/vendor/animsition/animsition.min.js"></script>
+		<script src="/js/main.js"></script>
+		<script>
+			function copyText() {
+				var element = document.getElementById("spanKey");
+
+				/* Select the text field */
+				element.select();
+				/* Copy the text inside the text field */
+				document.execCommand("copy");
+			}
+		</script>
+	</body>
+</html>

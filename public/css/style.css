@@ -1,0 +1,254 @@
+.invalid-feedback {
+	display: block;
+}
+.custom-select.is-valid,
+.form-control.is-valid,
+.was-validated .custom-select:valid,
+.was-validated .form-control:valid {
+	border-color: #e5e5e5;
+}
+.search-box {
+	width: 65%;
+	margin-right: 10px;
+	display: inline-block;
+}
+.btn-add-new {
+	width: 100%;
+}
+.theme-color {
+	color: #007bff !important;
+}
+.theme-trash {
+	color: red !important;
+}
+.back-btn {
+	float: right;
+}
+
+.loader {
+	border: 16px solid #333333;
+	border-radius: 50%;
+	border-top: 16px solid #007bff;
+	border-bottom: 16px solid #007bff;
+	width: 95px;
+	height: 95px;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+	position: fixed;
+	left: 45%;
+	top: 45%;
+	z-index: 99999999;
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.opacity-6 {
+	opacity: 0.7;
+}
+
+.alert {
+	display: none;
+	border-radius: 0;
+	color: #fff;
+	text-align: left;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	right: 0;
+	margin: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	width: 90%;
+	max-width: 380px;
+	min-width: 260px;
+	font-size: 18px;
+	min-height: 60px;
+	line-height: 1.6em;
+}
+
+.alert-success {
+	background-color: #33b575;
+	border-color: #33b575;
+}
+
+.alert-danger {
+	background-color: #f56666;
+	border-color: #f56666;
+}
+
+.alert-dismissable .close,
+.alert-dismissible .close {
+	opacity: 0.4;
+}
+
+/* Profile image css */
+.avatar-upload {
+	position: relative;
+	max-width: 205px;
+	margin: 50px auto;
+}
+.avatar-upload .avatar-edit {
+	position: absolute;
+	right: 25px;
+	z-index: 1;
+	top: 10px;
+}
+.avatar-upload .avatar-edit input {
+	display: none;
+}
+.avatar-upload .avatar-edit input + label {
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	margin-bottom: 0;
+	border-radius: 100%;
+	background: #495057;
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+	cursor: pointer;
+	font-weight: normal;
+	transition: all 0.2s ease-in-out;
+}
+.avatar-upload .avatar-edit input + label:hover {
+	background: #f1f1f1;
+	border-color: #d6d6d6;
+}
+.image-edit-pencil {
+	margin: 8px;
+}
+/* .avatar-upload .avatar-edit input + label:after {
+	content: "\f040";
+	font-family: "FontAwesome";
+	color: #757575;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: auto;
+} */
+.avatar-upload .avatar-preview {
+	width: 192px;
+	height: 192px;
+	position: relative;
+	border-radius: 100%;
+	border: 6px solid #495057;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.avatar-upload .avatar-preview > div {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.custom-alert-dark {
+	padding: 15px;
+	padding-left: 40px;
+	background-color: teal;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.order-courier-list {
+	border: 2px solid #454545;
+	border-radius: 5px;
+	padding: 15px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.order-courier-list:hover {
+	background-color: green;
+}
+
+.order-courier-list.active {
+	background-color: green;
+}
+
+/* tree-view */
+lable.lable-post {
+	font-weight: bold;
+	color: orange;
+	letter-spacing: -1px;
+	margin-right: 10px;
+}
+lable.lable-get {
+	font-weight: bold;
+	color: #589558;
+	letter-spacing: -1px;
+	margin-right: 10px;
+}
+lable.lable-patch {
+	font-weight: bold;
+	color: grey;
+	letter-spacing: -1px;
+	margin-right: 10px;
+}
+.vtl-node-main {
+	padding: 0px 0 0px 1rem;
+}
+/* end tree-view */
+
+span.cross-spliter {
+	/*font-weight: bold;*/
+	margin-top: 7px;
+	font-size: 15px;
+}
+
+tbody.api-resource-tbody td {
+	max-width: 50% !important;
+}
+
+.code-section {
+	border: 1px solid grey;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: black;
+	padding-left: 2px;
+}
+
+pre {
+	display: block;
+	font-size: 14px;
+	color: #c3d386;
+	margin: 0;
+}
+
+table.table.table-bordered.table-dark-error {
+	background-color: #000;
+	margin: 10px;
+}
+
+.card-header button.btn.btn-link {
+	text-decoration: none;
+}
+
+.multiselect__option {
+	line-height: 14px !important;
+}
+.multiselect,
+.multiselect__input,
+.multiselect__single {
+	font-size: 14px !important;
+}

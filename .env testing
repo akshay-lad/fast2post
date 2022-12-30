@@ -1,0 +1,5 @@
+VUE_APP_API_URL=http://test-api.fast2post.com/api/
+VUE_APP_TOKEN_NAME=f2p_token
+VUE_APP_USER_TYPE=f2p_user_type
+VUE_APP_USER_ACTIVE=f2p_user_active
+VUE_APP_USER_ID=f2p_user_id

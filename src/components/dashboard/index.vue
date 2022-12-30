@@ -1,0 +1,66 @@
+<template>
+	<div class="row">
+		<div class="col-md-12" v-if="usertype == 'client' && user_active == 0">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="custom-alert-dark">
+						<p>Please fill-up your other profile details.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12" v-if="usertype == 'deliveryboy'">
+			<courier-dashboard></courier-dashboard>
+		</div>
+		<div class="col-md-12" v-else>
+			<h1>Dashboard</h1>
+			<section class="statistic statistic2">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-3">
+							<div class="statistic__item statistic__item--green">
+								<h2 class="number">10,368</h2>
+								<span class="desc">members online</span>
+								<div class="icon">
+									<i class="zmdi zmdi-account-o"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div
+								class="statistic__item statistic__item--orange"
+							>
+								<h2 class="number">388,688</h2>
+								<span class="desc">items sold</span>
+								<div class="icon">
+									<i class="zmdi zmdi-shopping-cart"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="statistic__item statistic__item--blue">
+								<h2 class="number">1,086</h2>
+								<span class="desc">this week</span>
+								<div class="icon">
+									<i class="zmdi zmdi-calendar-note"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3">
+							<div class="statistic__item statistic__item--red">
+								<h2 class="number">RS 1,060</h2>
+								<span class="desc">total earnings</span>
+								<div class="icon">
+									<i class="zmdi zmdi-money"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- END STATISTIC-->
+		</div>
+	</div>
+</template>
+
+<script src="./index.js"></script>
